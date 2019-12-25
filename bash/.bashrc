@@ -16,4 +16,7 @@ nonzero_return() {
 	(( ret )) && echo " $ret"
 }
 
-export PS1="\n\A\[\e[31m\]\`nonzero_return\` \[\e[32m\]\u\[\e[m\]@\[\e[33m\]\h\[\e[m\]:\[\e[1;34m\]\w\[\e[m\]\n\$ "
+uclr="\[\e[32m\]"
+(( EUID )) || uclr="\[\e[31m\]"
+
+export PS1="\n\A\[\e[31m\]\`nonzero_return\` ${uclr}\u\[\e[m\]@\[\e[33m\]\h\[\e[m\]:\[\e[1;34m\]\w\[\e[m\]\n\$ "
