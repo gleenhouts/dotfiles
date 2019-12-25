@@ -26,7 +26,7 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-icon" type="string" value="preferences-system-windows"/>
+      <property name="button-icon" type="string" value="distributor-logo-archlinux"/>
     </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="0"/>
