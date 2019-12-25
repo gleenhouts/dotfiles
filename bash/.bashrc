@@ -21,6 +21,10 @@ nonzero_return() {
 uclr="\[\e[32m\]"
 (( EUID )) || uclr="\[\e[31m\]"
 
+GIT_PS1_SHOWDIRTYSTATE=1
+GIT_PS1_SHOWUNTRACKEDFILES=1
+GIT_PS1_SHOWUPSTREAM="auto"
+GIT_PS1_SHOWCOLORHINTS=1
 PROMPT_COMMAND='__git_ps1 "\n\A\[\e[31m\]\`nonzero_return\` ${uclr}\u\[\e[m\]@\[\e[33m\]\h\[\e[m\]:\[\e[1;34m\]\w\[\e[m\]" "\\n\\\$ "'
 
 #export PS1="\n\A\[\e[31m\]\`nonzero_return\` ${uclr}\u\[\e[m\]@\[\e[33m\]\h\[\e[m\]:\[\e[1;34m\]\w\[\e[m\]\n\$ "
