@@ -1,6 +1,6 @@
 # dotfiles
 
-My Linux user-specific configuration files structed for management by `stow`.
+My Linux user-specific configuration files structured for management by `stow`.
 
 ## Usage
 
