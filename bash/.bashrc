@@ -9,6 +9,9 @@ alias ls='ls --color=auto'
 alias ll='ls -lAh --group-directories-first'
 alias lt='ls -lAhtr' # sort by date, most recent last
 alias lz='ls -lAhSr --group-directories-first' # sort by size, largest last
+
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
 #PS1='[\u@\h \W]$ '
 #PS1='\n\u at \h in \w\n$ '
 . ~/.git-prompt.sh

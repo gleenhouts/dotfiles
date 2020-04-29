@@ -1,6 +1,5 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by syntax-specific settings.
 {
 	"font_face": "Terminus",
-	"font_size": 9
+	"font_size": 9,
+	"theme": "Adaptive.sublime-theme"
 }
