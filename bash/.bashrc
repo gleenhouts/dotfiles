@@ -31,3 +31,8 @@ GIT_PS1_SHOWCOLORHINTS=1
 PROMPT_COMMAND='__git_ps1 "\n\A\[\e[31m\]\`nonzero_return\` ${uclr}\u\[\e[m\]@\[\e[33m\]\h\[\e[m\]:\[\e[1;34m\]\w\[\e[m\]" "\\n\\\$ "'
 
 #export PS1="\n\A\[\e[31m\]\`nonzero_return\` ${uclr}\u\[\e[m\]@\[\e[33m\]\h\[\e[m\]:\[\e[1;34m\]\w\[\e[m\]\n\$ "
+
+if [[ $DISPLAY ]]; then
+	alias ff='firefox'
+	alias ffs='firefox --search'
+fi
